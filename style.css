@@ -1,5 +1,96 @@
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+
 .welcome-page{
     background: rgb(85, 56, 232);
     width: 100%;
     height: 100vh;
+}
+
+nav{
+    position: relative;
+    height: 18vh;
+}
+
+.logo-cont{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 50%;
+    width: 240px;
+    margin-left: 70px;
+    float: left;
+}
+
+#logo{
+    font-size: 70px;
+    color: rgb(255, 169, 1);
+    float: left;
+}
+
+.logo-name{
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-menu-cont{
+    position: relative;
+
+    width: 50%;
+    height: 30px;
+    float: right;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav-menu{
+   float: right;
+   padding: 0;
+
+}
+
+.nav-menu li{
+    display: inline;
+    font-size: 20px;
+    margin-left: 20px;
+    color: #cccccc;
+}
+
+.nav-menu li:nth-child(3){
+    margin-right: 70px;
+}
+
+.welcome-page .left h1{
+    color: white;
+}
+
+.welcome-page .left p{
+    color: #cccccc;
+}
+
+.welcome-page .left button{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    
+    color: white;
+    font-weight: bold;
+}
+
+.left-button1{
+    background: rgb(255, 169, 1);
+    border: none;
+}
+
+.left-button2{
+    background: none;
+    border: 2px solid white;
+    margin-left: 10px;
 }
