@@ -7,21 +7,21 @@ body{
 .welcome-page{
     background: rgb(85, 56, 232);
     width: 100%;
-    height: 100vh;
+    height: auto;
 }
 
 nav{
     position: relative;
-    height: 18vh;
+    height: 30vh;
 }
 
 .logo-cont{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    height: 50%;
+    height: 70px;
     width: 240px;
-    margin-left: 70px;
+    margin-left: 140px;
     float: left;
 }
 
@@ -34,7 +34,7 @@ nav{
 .logo-name{
     float: left;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 20px;
     font-size: 25px;
     font-weight: bold;
     color: white;
@@ -64,33 +64,111 @@ nav{
 }
 
 .nav-menu li:nth-child(3){
-    margin-right: 70px;
+    margin-right: 140px;
 }
 
 .welcome-page .left h1{
+    position: relative;
+  
     color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 80%;
+    font-size: 42px;
+    margin-left: 60px;
+    margin-top: 60px;
+    line-height: 1.4em;
 }
 
 .welcome-page .left p{
     color: #cccccc;
+    width: 80%;
+    font-size: 18px;
+    position: relative;
+    width: 80%;
+    margin-left: 60px;
+    margin-top: 30px;
+    line-height: 1.8em;
+  /*  word-spacing: 0.2em;*/
 }
 
 .welcome-page .left button{
-    width: 150px;
-    height: 50px;
-    border-radius: 25px;
-    
+    width: 210px;
+    height: 70px;
+    border-radius: 50px;
     color: white;
     font-weight: bold;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 80px;
 }
 
 .left-button1{
     background: rgb(255, 169, 1);
     border: none;
+    margin-left: 50px;
+    margin-right: 10px;
 }
 
 .left-button2{
     background: none;
-    border: 2px solid white;
+    border: 2px solid rgb(175, 175, 175);
     margin-left: 10px;
+}
+
+.right img{
+    width: 100%;
+}
+
+/* Medium Screen Size MD*/
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .left-button1{
+      background: red;
+      margin-left: 0;
+    }
+
+    .welcome-page .left h1{
+      width: 100%;
+      margin-left: 0;
+    }
+    .welcome-page .left p{
+        width: 100%;
+        margin-left: 0;
+      }
+      .welcome-page .left button{
+        
+      }
+}
+
+/* Small Screen Size SM*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .left-button1{
+        background: green;
+        margin-left: 0;
+      }
+      .welcome-page .left h1{
+        width: 100%;
+        margin-left: 0;
+      }
+      .welcome-page .left p{
+          width: 100%;
+          margin-left: 0;
+        }
+}
+
+/* Extra Small for Mobile Screen XS */
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .left-button1{
+        background: pink;
+        margin-left: 0;
+      }
+    
+    .welcome-page .left h1{
+        width: 100%;
+        margin-left: 0;
+      }
+      .welcome-page .left p{
+          width: 100%;
+          margin-left: 0;
+        }
 }
