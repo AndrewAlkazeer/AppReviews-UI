@@ -122,7 +122,7 @@ nav{
 /* Section 1 - Featured Section */
 
 .featured-section{
-    background: #cccccc;
+    background: #fafafa;
 }
 
 .featured-section p{
@@ -160,7 +160,7 @@ display: inline;
 
 /* ------------------------------------------------- */
 
-/* Section 2 */
+/* Section 2 Take a look */
 
 .section-2 h4{
     margin-left: 50px;
@@ -246,6 +246,62 @@ display: inline;
 .section-3 p{
     color: #777777;
     font-family: 'Source Sans Pro', sans-serif;
+    width: 80%;
+}
+
+/* ------------------------------------------------- */
+
+/* Section 4 How AppReview Works */
+
+.section-4-cont h4{
+    margin-left: 50px;
+    color: rgb(255, 169, 1);
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 80px;
+}
+
+.section-4-cont h1{
+    margin-left: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.section-4-cont .left div{
+    height: auto;
+    margin-top: 15px;
+}
+
+.section-4-cont i{
+        font-size: 25px;
+        float: left;
+        margin-left: 50px;
+        color: rgb(255, 169, 1);
+}
+
+.section-4-cont h5{
+    display: inline;
+    position: relative;
+    left: 10px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+.section-4-cont p{
+    margin-left: 50px;
+    width: 60%;
+    color: #777777;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.section-4-cont .right img{
     width: 80%;
 }
 
