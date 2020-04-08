@@ -302,6 +302,9 @@ display: inline;
 }
 
 .section-4-cont .right img{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
     width: 80%;
 }
 
@@ -370,5 +373,9 @@ display: inline;
 
         .section-2 p{
             width: 80%;
+        }
+
+        .section-4-cont .right img{
+            margin-top: 20px;
         }
 }
