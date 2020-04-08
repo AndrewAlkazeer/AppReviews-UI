@@ -99,7 +99,7 @@ nav{
     font-weight: bold;
     font-size: 20px;
     margin-top: 40px;
-    margin-bottom: 80px;
+    margin-bottom: 150px;
 }
 
 .left-button1{
@@ -119,10 +119,10 @@ nav{
     width: 100%;
 }
 
-/* Featured Section */
+/* Section 1 - Featured Section */
 
-.featured-section .left{
-
+.featured-section{
+    background: #cccccc;
 }
 
 .featured-section p{
@@ -134,7 +134,6 @@ nav{
    font-family: 'Source Sans Pro', sans-serif;
    color: #777777;
    text-align: center;
-   font-family: 'Source Sans Pro', sans-serif;
 }
 
 .featured-section .right{
@@ -159,6 +158,99 @@ display: inline;
     padding-top: 40px;
 }
 
+/* ------------------------------------------------- */
+
+/* Section 2 */
+
+.section-2 h4{
+    margin-left: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(255, 169, 1);
+    margin-top: 130px;
+}
+.section-2 h1{
+    margin-left: 50px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 20px;
+}
+.section-2 p{
+    margin-left: 50px;
+    width: 40%;
+    color: #777777;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 1.7em;
+}
+
+/* ------------------------------------------------- */
+
+/* Section 3 */
+
+.section-3{
+    margin-top: 40px;
+}
+
+.section-3 .row{
+    position: relative;
+    width: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sections-3{
+    padding: 0;
+}
+
+.section-3 .i-dotted-line-cont{
+    width: 100%;
+}
+
+.i-dotted-line-cont .i-cont{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: rgb(255, 228, 177);
+    border-radius: 15px;   
+    z-index: 2;
+}
+
+.i-dotted-line-cont i{
+    position: relative;
+    font-size: 40px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 169, 1);
+}
+
+.dotted-line{
+    position: absolute;
+    width: 75%;
+    background: none;
+    height: 20%;
+    top: 0;
+    right: 20px;
+    border-bottom: 2px dashed rgb(255, 169, 1);
+}
+
+.section-3 h1{
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.section-3 p{
+    color: #777777;
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 80%;
+}
+
+/* ------------------------------------------------- */
+
 /* Medium Screen Size MD*/
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -178,6 +270,10 @@ display: inline;
       .welcome-page .left button{
         
       }
+
+      .section-2 p{
+          width: 70%;
+      }
 }
 
 /* Small Screen Size SM*/
@@ -193,6 +289,10 @@ display: inline;
       .welcome-page .left p{
           width: 100%;
           margin-left: 0;
+        }
+
+        .section-2 p{
+            width: 80%;
         }
 }
 
@@ -210,5 +310,9 @@ display: inline;
       .welcome-page .left p{
           width: 100%;
           margin-left: 0;
+        }
+
+        .section-2 p{
+            width: 80%;
         }
 }
