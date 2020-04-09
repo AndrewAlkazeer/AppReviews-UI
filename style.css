@@ -315,7 +315,7 @@ display: inline;
 .page-2-cont{
     background: rgb(85, 56, 232);
     margin-top: 80px;
-    height: 60vh;
+
 }
 
 .page-2-cont h1{
@@ -377,8 +377,7 @@ display: inline;
     width: 657px;
     left: 50%;
     transform: translateX(-50%);
-
-    margin-top: 30px;
+    margin-bottom: 300px;
 }
 
 .reviews-btn p{
@@ -427,6 +426,7 @@ display: inline;
     -webkit-box-shadow: 0 0 20px #999999;
     -o-box-shadow: 0 0 20px #999999;
     background: white;
+    border-radius: 10px;
 }
 
 .page-3-cont .cont div{
@@ -440,6 +440,7 @@ display: inline;
     left: 50%;
     transform: translateX(-50%);
     margin-top: 60px;
+    color: rgb(255, 169, 1);
 }
 
 .page-3-cont h4{
@@ -451,7 +452,7 @@ display: inline;
     margin-top: 20px;
 }
 
-.page-3-cont h1{
+.page-3-cont .smaller-cont h1{
     font-size: 35px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
@@ -460,7 +461,7 @@ display: inline;
     margin-top: 0;
 }
 
-.page-3-cont p{
+.page-3-cont .smaller-cont p{
     font-size: 16px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
@@ -469,7 +470,7 @@ display: inline;
     line-height: 1.8em;
 }
 
-.page-3-cont button{
+.page-3-cont .smaller-cont button{
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -483,6 +484,72 @@ display: inline;
     background: rgb(255, 169, 1);
     margin-bottom: 30px;
     margin-top: 20px;
+    color: white;
+}
+
+/* ------------------------------------------------- */
+
+/* Section 5 - Build a custom package for your business */
+
+.section-5-cont{
+    position: relative;
+    top: -140px;
+}
+
+.section-5-cont .row{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: auto;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    border-top: 1px solid #cfcece;
+    border-bottom: 1px solid #cfcece;
+}
+
+.h1-p-cont{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.section-5-cont h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.section-5-cont p{
+    font-weight: bold;
+    color: #999999;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.section-5-cont span{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.section-5-cont button{
+    position: relative;
+    float: right;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 150px;
+    height: 55px;
+    background: rgb(85, 56, 232);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
 }
 
 /* ------------------------------------------------- */
