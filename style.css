@@ -310,11 +310,12 @@ display: inline;
 
 /* ------------------------------------------------- */
 
-/* Page 2 */
+/* Page 2 Purple - Flexible Pricing */
 
 .page-2-cont{
     background: rgb(85, 56, 232);
     margin-top: 80px;
+    height: 60vh;
 }
 
 .page-2-cont h1{
@@ -330,20 +331,22 @@ display: inline;
     left: 50%;
     transform: translateX(-50%);
     margin-top: 15px;
-    width: 260px;
+    width: 290px;
     height: 30px;
 }
 
 .page-2-cont .p-1{
     color: #999999;
     float: left;
+    font-size: 16px;
 }
 
 .page-2-cont .p-2{
     color: white;
     float: left;
     padding-top: 3px !important;
-    padding-bottom: 3px !important;
+    padding-bottom: 2px !important;
+    font-size: 16px;
 }
 
 .btn-cont{
@@ -356,6 +359,7 @@ display: inline;
     float: left;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 2px;
 }
 
 .btn-core{
@@ -366,6 +370,119 @@ display: inline;
     border-radius: 25px;
     right: 1px;
     top: 1px;
+}
+
+.reviews-btn-cont{
+    position: relative;
+    width: 657px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    margin-top: 30px;
+}
+
+.reviews-btn p{
+    position: relative;
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: #999999;
+    padding-bottom: 15px;
+    margin-right: -4px;
+    border-bottom: 1px solid #575757;
+}
+
+.reviews-btn p:nth-child(2){
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+/* ------------------------------------------------- */
+
+/* Page 3 White - Buy Now */
+
+.page-3-cont{
+    background: white;
+}
+
+.page-3-cont .cont{
+    position: relative;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -200px;
+}
+
+.smaller-cont{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: auto;
+    box-shadow: 0 0 20px #999999;
+    -moz-box-shadow: 0 0 20px #999999;
+    -webkit-box-shadow: 0 0 20px #999999;
+    -o-box-shadow: 0 0 20px #999999;
+    background: white;
+}
+
+.page-3-cont .cont div{
+
+
+}
+
+.page-3-cont i{
+    font-size: 50px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 60px;
+}
+
+.page-3-cont h4{
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(255, 169, 1);
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.page-3-cont h1{
+    font-size: 35px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-left: 30px;
+    margin-top: 0;
+}
+
+.page-3-cont p{
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: #999999;
+    margin-left: 30px;
+    line-height: 1.8em;
+}
+
+.page-3-cont button{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width:220px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: rgb(255, 169, 1);
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 /* ------------------------------------------------- */
