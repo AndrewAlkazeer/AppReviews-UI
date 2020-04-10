@@ -615,10 +615,10 @@ display: inline;
     padding-bottom: 10px;
     padding-left: 20px;
     background: white;
-    box-shadow: 0 0 5px #999999;
-    -moz-box-shadow: 0 0 5px #999999;
-    -webkit-box-shadow: 0 0 5px #999999;
-    -o-box-shadow: 0 0 5px #999999;
+    box-shadow: 0 0 5px #999999 !important;
+    -moz-box-shadow: 0 0 5px #999999 !important;
+    -webkit-box-shadow: 0 0 5px #999999 !important;
+    -o-box-shadow: 0 0 5px #999999 !important;
     margin-top: 10px; 
 
 }
