@@ -554,6 +554,97 @@ display: inline;
 
 /* ------------------------------------------------- */
 
+/* Page 4 - Asked Questions */
+
+.page-4-cont{
+    background: rgb(238, 238, 238);
+    border: 1px solid #cfcece;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.page-4-cont .row{
+    position: relative;
+    width: 80%;
+    margin: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.page-4-cont .row:nth-child(2){
+    margin-top: 20px;
+}
+
+.page-4-cont h4{
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(255, 169, 1);
+    font-weight: bold;
+}
+
+.page-4-cont h1{
+    font-weight: bold;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.page-4-cont h5{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: #999999;
+    font-size: 16px;
+    width: 90%;
+}
+
+.page-4-cont p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: #999999;
+    font-size: 13px;
+    width: 90%;
+    margin-bottom: 0;
+}
+
+.h5-p-i-cont{
+    position: relative;
+    width: 95%;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background: white;
+    box-shadow: 0 0 5px #999999;
+    -moz-box-shadow: 0 0 5px #999999;
+    -webkit-box-shadow: 0 0 5px #999999;
+    -o-box-shadow: 0 0 5px #999999;
+    margin-top: 10px; 
+
+}
+
+.page-4-cont i{
+position: absolute;
+right: 15px;
+top: 50%;
+transform: translateY(-50%);
+border: 1px solid rgb(255, 169, 1);
+color: rgb(255, 169, 1);
+padding-right: 3px;
+padding-left: 3px;
+padding-top: 2px;
+padding-bottom: 2px;
+border-radius: 25px;
+}
+
+.sub-section{
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+
+/* ------------------------------------------------- */
+
 /* Medium Screen Size MD*/
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
