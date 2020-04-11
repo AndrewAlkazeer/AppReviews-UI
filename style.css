@@ -794,6 +794,7 @@ border-radius: 25px;
    padding: 0;
    margin: 0;
    background: #eeeeee;
+   border: 1px solid #e7e7e7;
    padding-top: 100px;
    padding-bottom: 100px;
 }
@@ -803,33 +804,84 @@ border-radius: 25px;
     width: 80%;
     left: 50%;
     transform: translateX(-50%);
- /*   background: green;*/
+    background: white;
     margin: 0 !important;
     padding: 0 !important;
-   background: white;
+   border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+   /* overflow: hidden; It affects the buttons outside the row container  */
 }
 
-.test{
+.col-lg-12-cont{
     margin: 0 !important;
     padding: 0 !important;
+}
+
+.big-cont{
+    width: 100%;
+    overflow: hidden;
+}
+
+.left-arrow-cont, .right-arrow-cont{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: lightblue;
+    border-radius: 50px;
+}
+
+.left-arrow-cont{
+    top: 50%;
+    transform: translateY(-50%);
+    left: -30px;
+    z-index: 2;
+    background: grey;
+}
+
+.right-arrow-cont{
+    top: 50%;
+    transform: translateY(-50%);
+    right: -30px;
+    z-index: 2;
+    background: rgb(255, 169, 1);
+    cursor: pointer;
+}
+
+.left-arrow-cont i, .right-arrow-cont i{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: white;
 }
 
 .reviewer-cont{
+    position: relative;
     width: 200%;
     height: auto;
+    /*left: -100%; Change to the next reviewer */
 }
 
-.reviewer-cont-1{
+.reviewer-cont-1, .reviewer-cont-2{
     width: 50%;
-    
-}
-
-.reviewer-cont-1 img{
-    width: 40%;
+    padding: 0;
+    margin: 0;
     float: left;
 }
 
-.reviewer-cont-1 h2{
+.reviewer-cont-2{
+   /* background: lightblue;*/
+}
+
+.reviewer-cont-1 img, .reviewer-cont-2 img{
+    width: 40%;
+    float: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.reviewer-cont-1 h2, .reviewer-cont-2 h2{
     position: relative;
     line-height: 1.5em;
     font-size: 25px;
@@ -845,7 +897,7 @@ border-radius: 25px;
     float: left;
 }
 
-.reviewer-cont-1 h5{
+.reviewer-cont-1 h5, .reviewer-cont-2 h5{
     color: black;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
@@ -854,7 +906,7 @@ border-radius: 25px;
     margin-top: 0;
 }
 
-.reviewer-cont-1 h6{
+.reviewer-cont-1 h6, .reviewer-cont-2 h6{
     color: grey;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
