@@ -1,6 +1,9 @@
 var page4contI = document.querySelectorAll(".page-4-cont i");
 var h5PICont = document.querySelectorAll(".h5-p-i-cont");
 var page4ContH5 = document.querySelectorAll(".page-4-cont h5");
+var reviewerCont = document.querySelector(".reviewer-cont");
+var leftArrowCont = document.querySelector(".left-arrow-cont");
+var rightArrowCont = document.querySelector(".right-arrow-cont");
 
 window.onload = ()=>{
 
@@ -10,9 +13,6 @@ window.onload = ()=>{
     var switcher3 = false;
     var switcher4 = false;
     var switcher5 = false;
-
-  //  h5PICont[0].style.boxShadow = '0 0 5px #999999';
-  //  h5PICont[0].style.border = '1px solid #999999';
 
 page4contI[0].addEventListener('click', ()=>{
 if(!switcher0){
@@ -104,4 +104,15 @@ page4contI[1].addEventListener('click', ()=>{
                     switcher5 = false;
                 }
                 });
+
+                rightArrowCont.addEventListener('click', ()=>{
+                    rightArrowCont.style.background = 'grey';
+                    reviewerCont.style.left = '-100%';
+                    leftArrowCont.style.background = 'rgb(255, 169, 1)';
+                });
+                leftArrowCont.addEventListener('click', ()=>{
+                    leftArrowCont.style.background = 'grey';
+                    reviewerCont.style.left = '0%';
+                    rightArrowCont.style.background = 'rgb(255, 169, 1)';
+});
 }
