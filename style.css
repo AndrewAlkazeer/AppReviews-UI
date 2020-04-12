@@ -1054,11 +1054,24 @@ border-radius: 25px;
     transform: translateX(-50%);
     width: 80%;
     padding-top: 100px;
+    padding-bottom: 50px;
     margin: 0;
 }
 
 .footer-cont .footer-logo-cont{
    
+}
+
+.footer-logo-cont p{
+    color: black;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer-logo-cont{
+    position: relative;
+    height: 70px;
+    width: 240px;
 }
 
 .footer-Company h6, .footer-features h6, .footer-links h6{
@@ -1072,14 +1085,28 @@ border-radius: 25px;
 
 .footer-Company p, .footer-features p, .footer-links p{
     font-size: 16px;
-    color: grey;
+    color: rgb(110, 110, 110);
     font-family: 'Source Sans Pro', sans-serif;
     margin-left: 20px;
     margin-bottom: 15px;
     margin-top: 15px;
 }
 
-.footer-features h6
+.footer-copyright{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(110, 110, 110);
+}
+
+.footer-trademarks{
+    margin-top: 0;
+    padding: 0;
+    line-height: 1.8em;
+    color: rgb(110, 110, 110);
+    font-family: 'Source Sans Pro', sans-serif;
+}
 
 /* ------------------------------------------------- */
 
