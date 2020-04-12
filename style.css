@@ -1046,6 +1046,43 @@ border-radius: 25px;
 
 /* ------------------------------------------------- */
 
+/* Footer Page */
+
+.footer-cont .row{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    padding-top: 100px;
+    margin: 0;
+}
+
+.footer-cont .footer-logo-cont{
+   
+}
+
+.footer-Company h6, .footer-features h6, .footer-links h6{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-Company p, .footer-features p, .footer-links p{
+    font-size: 16px;
+    color: grey;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.footer-features h6
+
+/* ------------------------------------------------- */
+
 /* Medium Screen Size MD*/
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
