@@ -1048,7 +1048,7 @@ border-radius: 25px;
 
 /* Footer Page */
 
-.footer-cont .row{
+.footer-cont .row-1{
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -1106,6 +1106,37 @@ border-radius: 25px;
     line-height: 1.8em;
     color: rgb(110, 110, 110);
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer-cont .row-2{
+    position: relative;
+    width: 80%;
+    padding: 0;
+    margin: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer-our-sites h5{
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+
+.footer-our-sites p{
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    margin-left: 25px;
+    color: rgb(110, 110, 110);
+}
+
+.footer-our-sites p:nth-child(3){
+    color: rgb(255, 169, 1);
 }
 
 /* ------------------------------------------------- */
