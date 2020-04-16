@@ -72,6 +72,10 @@ nav{
     position: relative;
     width: 60px;
     height: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    float: right;
+    margin-right: 140px;
 }
 
 .bar-one{
@@ -110,7 +114,6 @@ nav{
 
 .welcome-page .left h1{
     position: relative;
-  
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
     width: 80%;
@@ -189,7 +192,7 @@ nav{
 }
 
 .featured-section .right ul li{
-display: inline;
+    display: inline;
 }
 
 .featured-section .right ul li i{
@@ -337,7 +340,7 @@ display: inline;
 
 .section-4-cont p{
     margin-left: 50px;
-    width: 60%;
+    width: 70%;
     color: #777777;
     text-align: left;
     margin-top: 10px;
@@ -416,11 +419,11 @@ display: inline;
 
 .reviews-btn-cont{
     position: relative;
-    width: 657px;
     left: 50%;
     transform: translateX(-50%);
     margin-bottom: 280px;
     margin-top: 30px;
+    display: inline-block;
 }
 
 .reviews-btn p{
@@ -1106,7 +1109,6 @@ border-radius: 25px;
 
 .footer-logo-cont p{
     color: black;
-    color: black;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -1268,77 +1270,240 @@ border-radius: 25px;
     transition: 0.3s ease-in-out;
 }
 
-/* facebook #3b5998 twitter #00acee linkedin #0e76a8 youtube #c4302b */
-
 /* ------------------------------------------------- */
 
 /* Medium Screen Size MD*/
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+    .logo-cont{
+      /*
+        height: 70px;
+      width: 240px;
+      */
+      margin-left: 60px;
+    }
+
+    .nav-menu-cont{
+
+    }
+
+    .nav-menu li:nth-child(3){
+        margin-right: 60px;
+    }
+    
     .left-button1{
       background: red;
-      margin-left: 0;
+      margin-left: 20px;
     }
 
     .welcome-page .left h1{
       width: 100%;
-      margin-left: 0;
+      margin-left: 20px;
+      margin-top: 0;
+      font-size: 30px;
     }
     .welcome-page .left p{
         width: 100%;
-        margin-left: 0;
+        margin-left: 20px;
+        font-size: 16px;
       }
       .welcome-page .left button{
-        
+        width: 170px;
+        height: 60px;
       }
 
       .section-2 p{
           width: 70%;
       }
+
+      .section-4-cont .left p{
+        width: 100%;
+    }
+
+    .page-3-cont .smaller-cont{
+        width: 100%;
+    }
 }
 
 /* Small Screen Size SM*/
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {   
+    .logo-cont{
+        /*
+        height: 70px;
+        width: 240px;
+        */
+        margin-left: 40px;
+      }
+  
+    .mobile-menu-btn{
+        margin-right: 40px;
+      }
+
+      .left{
+
+      }
+  
+      .featured-section .left p{
+        margin-top: 20px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    
+    .right{
+        margin-bottom: 45px;
+    }
+
+    .right ul li i{
+       position: relative;
+       left: 30px;
+    }
+    
     .left-button1{
         background: green;
-        margin-left: 0;
+        margin-left: 20px;
+        
       }
       .welcome-page .left h1{
         width: 100%;
-        margin-left: 0;
+        margin-left: 20px;
         margin-top: 0;
+        font-size: 30px;
       }
       .welcome-page .left p{
           width: 100%;
           margin-left: 0;
+          font-size: 16px;
+          margin-left: 20px;
         }
+
+        .welcome-page .left button{
+            width: 170px;
+            height: 60px;
+          }
+
+          .section-2-cont h4{
+              margin-left: 90px;
+            padding-left: 30px;
+          }
+
+          .section-2-cont h1{
+            margin-left: 90px;
+            padding-left: 30px;
+          }
+
+          .section-2-cont p{
+            margin-left: 90px;
+            padding-left: 30px;
+          }
 
         .section-2 p{
             width: 80%;
+        }
+
+        .section-4-cont h4{
+            margin-left: 90px;
+            padding-left: 50px;
+        }
+
+        .section-4-cont h1{
+            margin-left: 90px;
+            padding-left: 50px;
+        }
+
+        .section-4-cont .left p{
+            width: 100%;
+        }
+
+        .page-3-cont .cont{
+
+        }
+
+        .page-3-cont .smaller-cont{
+            width: 100%;
+            
+        }
+
+        .page-3-cont .cont button{
+            width: 170px;
         }
 }
 
 /* Extra Small for Mobile Screen XS */
 @media screen and (min-width: 0px) and (max-width: 767px) {
+    .logo-cont{
+        /*
+          height: 70px;
+        width: 240px;
+        */
+        margin-left: 40px;
+      }
+
+      .mobile-menu-btn{
+        margin-right: 40px;
+      }
+
+      .left p{
+          margin-top: 20px;
+          margin-left: 0;
+      }
+      
+      .right{
+          margin-bottom: 45px;
+      }
+
+      .right ul li i{
+         position: relative;
+         left: 30px;
+      }
+    
     .left-button1{
         background: pink;
-        margin-left: 0;
+        margin-left: 50px;
       }
     
     .welcome-page .left h1{
-        width: 100%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
         margin-left: 0;
+        margin-top: 0;
       }
       .welcome-page .left p{
-          width: 100%;
-          margin-left: 0;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        margin-left: 0;
         }
+
+        .welcome-page .left button{
+            width: 170px;
+            height: 60px;
+          }
+
+          .welcome-page .left button{
+              margin-bottom: 50px;
+          }
 
         .section-2 p{
             width: 80%;
         }
 
+        .section-4-cont .left p{
+            width: 80%;
+            padding-left: 50px;
+        }
+
         .section-4-cont .right img{
             margin-top: 20px;
+        }
+
+        .reviews-btn p{
+            margin-left: 40px;
+        }
+
+        .page-3-cont .smaller-cont{
+            margin-bottom: 20px;
         }
 }
