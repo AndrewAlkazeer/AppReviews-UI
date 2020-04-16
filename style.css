@@ -729,7 +729,7 @@ border-radius: 25px;
 
 .case-btn-cont{
     position: relative;
-    width: 783px;
+    display: inline-block;
     left: 50%;
     transform: translateX(-50%);
     margin-top: 30px;
@@ -853,6 +853,8 @@ border-radius: 25px;
     padding: 0 !important;
    border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
    /* overflow: hidden; It affects the buttons outside the row container  */
 }
 
@@ -964,7 +966,7 @@ border-radius: 25px;
    float: left;
  /* background: coral;*/
   width: 60%;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .reviewer-name-title-rating-cont{
@@ -1323,6 +1325,26 @@ border-radius: 25px;
     .page-3-cont .smaller-cont{
         width: 100%;
     }
+
+    .case-btn-cont p{
+        padding-left: 40px;
+    }
+
+    .reviewer-text-cont{
+        margin-top: 0px;
+    }
+
+    .reviewer-text-cont h2{
+        font-size: 16px;
+    }
+
+    .reviewer-name-title-rating-cont{
+        margin-top: 10px;
+    }
+
+    .rating-sub-cont{
+        margin-right: 70px;
+    }
 }
 
 /* Small Screen Size SM*/
@@ -1425,6 +1447,26 @@ border-radius: 25px;
 
         .page-3-cont .cont button{
             width: 170px;
+        }
+
+        .case-btn-cont p{
+            padding-left: 60px;
+        }
+
+        .reviewer-text-cont{
+            margin-top: 0px;
+        }
+    
+        .reviewer-text-cont h2{
+            font-size: 17px;
+        }
+    
+        .reviewer-name-title-rating-cont{
+            margin-top: 10px;
+        }
+
+        .rating-sub-cont{
+            margin-right: 70px;
         }
 }
 
