@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "bootstrap-4.3.1-dist",
+			"path": "..\\..\\bootstrap-4.3.1-dist"
+		},
+		{
+			"name": "font-awesome-4.7.0",
+			"path": "..\\..\\font-awesome-4.7.0"
+		},
+		{
+			"name": "AppReviews-UI",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "AppReviews-UI"
+	}
+}

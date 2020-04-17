@@ -11,16 +11,16 @@ var one = document.querySelector('.bar-one');
   var main = document.querySelector('.mobile-menu-btn');
   var isClicked = false;
   var isClosed = true;
+  var mobileHiddenMenuCont = document.querySelector('.mobile-hidden-menu-cont');
+  var navMobileMenuLi = document.querySelectorAll('.nav-mobile-menu li');
 
 window.onload = ()=>{
-
     var switcher0 = false;
     var switcher1 = false;
     var switcher2 = false;
     var switcher3 = false;
     var switcher4 = false;
     var switcher5 = false;
-
 // Mobile navbar menu button animation
 
 // Menu Open
@@ -28,6 +28,20 @@ main.addEventListener('click', ()=>{
     if(!isClicked && isClosed){
       isClicked = true;
       isClosed = false;
+      one.style.background = 'black';
+      two.style.background = 'black';
+      three.style.background = 'black';
+      mobileHiddenMenuCont.style.display = 'block';
+      document.body.style.overflow = 'hidden';
+      setTimeout(()=>{
+        navMobileMenuLi[0].style.borderLeft = '7px solid rgb(85, 56, 232)';
+      }, 400);
+      setTimeout(()=>{
+        navMobileMenuLi[1].style.borderLeft = '7px solid rgb(85, 56, 232)';
+      }, 700);
+      setTimeout(()=>{
+        navMobileMenuLi[2].style.borderLeft = '7px solid rgb(85, 56, 232)';
+      }, 1000);
      // Stage One Animation
      setTimeout(()=>{
      three.style.top = '100%';
@@ -82,6 +96,14 @@ main.addEventListener('click', ()=>{
     else{
         isClicked = false;
         isClosed = true;
+        one.style.background = 'white';
+        two.style.background = 'white';
+        three.style.background = 'white';
+        mobileHiddenMenuCont.style.display = 'none';
+        navMobileMenuLi[0].style.borderLeft = 'none';
+        navMobileMenuLi[1].style.borderLeft = 'none';
+        navMobileMenuLi[2].style.borderLeft = 'none';
+        document.body.style.overflow = 'visible';
         // Stage One
         setTimeout(() =>{
         one.style.transform = 'rotate(0deg)';
