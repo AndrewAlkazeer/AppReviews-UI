@@ -932,7 +932,7 @@ border-radius: 25px;
 .reviewer-cont-1 h2, .reviewer-cont-2 h2{
     position: relative;
     line-height: 1.5em;
-    font-size: 25px;
+    font-size: 22px;
     color: grey;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
@@ -1029,13 +1029,23 @@ border-radius: 25px;
 
 .big-cont .sub-cont{
     position: relative;
+    display: inline-block;
+}
+
+.big-cont{
+    position: relative;
+    display: inline-block;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .sub-sub-cont{
     position: relative;
-    display: inline-block;
+    margin-right: 20px;
     left: 50%;
     transform: translateX(-50%);
+    
 }
 
 .big-cont .sub-cont i{
@@ -1468,6 +1478,48 @@ border-radius: 25px;
         .rating-sub-cont{
             margin-right: 70px;
         }
+
+        .reviewer-cont-1 img, .reviewer-cont-2 img{
+            position: relative;
+            float: none;
+            width: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .reviewer-text-cont{
+            position: relative;
+            float: none;
+            width: 90%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .reviewer-text-cont h2{
+            font-size: 18px;
+            margin-left: 20px;
+        }
+
+        .reviewer-name-title-rating-cont{
+            float: none;
+            position: relative;
+            width: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-top: 30px;
+        }
+
+        .reviewer-name-title-rating-cont .rating-sub-cont{
+            margin-right: 40px;
+        }
+
+        .big-cont{
+            width: 300px;
+        }
+
+        .sub-cont{
+            margin-top: 20px;
+        }
 }
 
 /* Extra Small for Mobile Screen XS */
@@ -1548,4 +1600,47 @@ border-radius: 25px;
         .page-3-cont .smaller-cont{
             margin-bottom: 20px;
         }
+
+        .reviewer-cont-1 img, .reviewer-cont-2 img{
+            position: relative;
+            float: none;
+            width: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .reviewer-text-cont{
+            position: relative;
+            float: none;
+            width: 90%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .reviewer-text-cont h2{
+            font-size: 18px;
+            margin-left: 20px;
+        }
+
+        .reviewer-name-title-rating-cont{
+            float: none;
+            position: relative;
+            width: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-top: 30px;
+        }
+
+        .reviewer-name-title-rating-cont .rating-sub-cont{
+            margin-right: 40px;
+        }
+
+        .big-cont{
+            width: 300px;
+        }
+
+        .sub-cont{
+            margin-top: 20px;
+        }
+        
 }
