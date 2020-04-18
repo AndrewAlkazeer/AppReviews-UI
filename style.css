@@ -212,10 +212,6 @@ nav{
    text-align: center;
 }
 
-.featured-section .right{
-
-}
-
 .featured-section .right ul{
     position: relative;
     float: right;
@@ -505,11 +501,6 @@ nav{
     -o-box-shadow: 0 0 20px #999999;
     background: white;
     border-radius: 10px;
-}
-
-.page-3-cont .cont div{
-
-
 }
 
 .page-3-cont i{
@@ -950,10 +941,6 @@ border-radius: 25px;
     float: left;
 }
 
-.reviewer-cont-2{
-   /* background: lightblue;*/
-}
-
 .reviewer-cont-1 img, .reviewer-cont-2 img{
     width: 40%;
     float: left;
@@ -1147,10 +1134,6 @@ border-radius: 25px;
     margin: 0;
 }
 
-.footer-cont .footer-logo-cont{
-   
-}
-
 .footer-logo-cont p{
     color: black;
     font-family: 'Source Sans Pro', sans-serif;
@@ -1328,10 +1311,6 @@ border-radius: 25px;
       margin-left: 60px;
     }
 
-    .nav-menu-cont{
-
-    }
-
     .nav-menu li:nth-child(3){
         margin-right: 60px;
     }
@@ -1404,10 +1383,6 @@ border-radius: 25px;
         margin-right: 40px;
       }
 
-      .left{
-
-      }
-  
       .featured-section .left p{
         margin-top: 20px;
         margin-left: 0;
@@ -1479,13 +1454,8 @@ border-radius: 25px;
             width: 100%;
         }
 
-        .page-3-cont .cont{
-
-        }
-
         .page-3-cont .smaller-cont{
             width: 100%;
-            
         }
 
         .page-3-cont .cont button{
